@@ -1,0 +1,18 @@
+.vscode/
+.libs/
+*.o
+*.lo
+*.la
+test/test
+core
+build/
+build-clang/
+builddir/
+subprojects/*
+!subprojects/*.wrap
+
+# Any local utility scripts
+*.sh
+
+# Any local .env files
+*.env
