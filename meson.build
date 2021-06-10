@@ -12,6 +12,7 @@ add_project_arguments('-Wno-unknown-pragmas', language: 'cpp')
 
 sources = files([
     'src/main.cpp',
+    'src/RTMPServer.cpp',
 ])
 
 fmt_wrap = subproject('fmt', default_options: 'default_library=static')
